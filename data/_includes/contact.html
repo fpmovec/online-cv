@@ -19,6 +19,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.address %}
+    <li class="address"><i class="fas fa-location-dot"></i>
+      {{ sidebar.address }}
+    </li>
+    {% endif %}
+
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
       <a href="">{{ sidebar.timezone }}</a>
