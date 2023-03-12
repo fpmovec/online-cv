@@ -3,219 +3,206 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Dr. med. Iryna Karpovich
+  tagline: Assistentärztin
+  avatar: irka1.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  #  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: irina.krivec@gmail.com
+  phone: +41 76 451 56 26
+  address: 8152 Opfikon, Schweiz
+  #    timezone: Europe/Zurich
+  #  citizenship: Belarus (Aufenthaltsbewilligung C mit Erwerbstätigkeit)
+  #    website: blog.webjeda.com #do not add http://
+  #    linkedin: alandoe
+  #    xing: alandoe
+  #    github: sharu725
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  #    pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
 
-        - idiom: French
-          level: Professional
+  languages:
+    title: Sprachen
+    info:
+      - idiom: Deutsch
+        level: C1, Dialektverstehen
 
-        - idiom: Spanish
-          level: Professional
+      - idiom: Englisch
+        level: B1
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+      - idiom: Russisch
+        level: Muttersprache
 
-        - item: Snowboarding
-          link:
+      - idiom: Belarussisch
+        level: Muttersprache
 
-        - item: Cooking
-          link:
+      - idiom: Italienisch
+        level: A1
+
+  interests:
+    title: Interessen
+    info:
+      - item: Volleyball
+        link:
+
+      - item: Beachvolleyball
+        link:
+
+      - item: Skifahren
+        link:
+
+      - item: Velofahren
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Berufserfahrung summary
+  summary: |
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Ausbildung
+  info:
+    - degree: Master Humanmedizin
+      university: Universität Zürich, CH
+      time: 2018 - 2022
+    #        details: |
+    #          Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #          sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #          pretium quis, sem.
+    #            - Bullet point
+    #            - Bullet point
+    - degree: Bachelor Humanmedizin
+      university: Universität Zürich, CH
+      time: 2017 - 2018
+    - degree: Ärztin-Gastroenterologin
+      university: Belarussische Medizinische Akademie der postgradualen Bildung, BY
+      time: 2010
+    - degree: Fachärztin für Innere Medizin
+      university: Belarussische Staatliche Medizinische Universität, BY
+      time: 2006 - 2007
+    - degree: Ärztin
+      university: Belarussische Staatliche Medizinische Universität, BY
+      time: 2000 - 2006
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Berufserfahrung
+  info:
+    - role: Unterassistentin
+      time: 2020 - 2021
+      company: Diverse Spitäler
+      details: |
+        UZH Praktisches Jahr:
+          - UZH
+          - Waid Spital
+          - Hirslanden
+          - Spital Uster
+    #      - role: Internist
+    #        time: 02.2013 - 05.2014
+    #        company: Die Poliklinik. Minsk, Belarus
+    #        details: |
+    #          Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #          Cum sociis natoque penatibus et magnis dis parturient montes,
+    #          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #          pellentesque eu, pretium quis, sem.
+    #            - Bullet point
+    #            - Bullet point
+    - role: Ärztin-Gastroenterologin
+      time: 11.2014 - 02.2015
+      company: 3. Klinische Stadtsspital, Minsk, Belarus
+    - role: Ärztin-Gastroenterologin
+      time: 03.2013 - 05.2014
+      company: Das private Medizinzentrum. Minsk, Belarus
+    - role: Leiterin-Gastroenterologin
+      time: 02.2011 - 01.2013
+      company: Die Abteilung für Gastroenterologie des Spitals. Molodetschno, Belarus.
+    - role: Internist + Dienst
+      time: 08.2007 - 08.2010
+      company: Die Abteilung für Gastroenterologie des Spitals. Molodetschno, Belarus.
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  title: Publications
+#  intro: |
+#    You can list your publications in this section. Lorem ipsum dolor sit
+#    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#    bibendum fringilla a eu lectus.
+#  Eshmuminov D, Karpovich I, Kapp J, Töpfer A, Endhardt K, Oberkofler C, Petrowsky H, Lenggenhager D, Tschuor C, Clavien PA. Pancreatic fistulas following distal pancreatectomy are unrelated to the texture quality of the pancreas. Langenbecks Arch Surg. 2021 May;406(3):729-734. doi: 10.1007/s00423-020-02071-y. Epub 2021 Jan 8. PMID: 33420516.
+#  Eshmuminov, D., Karpovich, I., Kapp, J. et al. Pancreatic fistulas following distal pancreatectomy are unrelated to the texture quality of the pancreas. Langenbecks Arch Surg 406, 729–734 (2021)
+  papers:
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    - title: Pancreatic fistulas following distal pancreatectomy are unrelated to the texture quality of the pancreas
+      link: "https://link.springer.com/article/10.1007/s00423-020-02071-y"
+      authors: Eshmuminov, D., Karpovich, I., Kapp, J. et al.
+      conference: Langenbecks Arch Surg 406, 729–734 (2021)
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: Python & Django
+      level: 2%
 
-      - name: Javascript & jQuery
-        level: 98%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

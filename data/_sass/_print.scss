@@ -4,42 +4,53 @@
         size: A4;
     }
     body {
-       font-size: 12pt;
+       //font-size: var(--bs-body-font-size);
+       //font-size: 80px;
+      //padding: 10;
     }
 
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
-    }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
+  .main-wrapper {
+    padding-top: 0;
+    padding-left: 0;
+  }
+   //
+   // img.avatar {
+   //     filter: grayscale(1);
+   //     -webkit-filter: greyscale(1);
+   // }
+   //.main-wrapper .time {
+   //    float: right;
+   //  width: 40%;
+   //     //color: black !important;
+   //     //-webkit-print-color-adjust: exact;
+   //}
+   // .sidebar-wrapper {
+   //   .profile-container {
+   //     color: black;
+   //   }
+   //     //position: static;
+   //     //float: right;
+   //     //width: 30%;
+   //     //-webkit-print-color-adjust: exact;
+   // }
+   //
+   // .remove-container.container-block {
+   //    display: none;
+   // }
+   //
+   // footer {
+   //    display: none;
+   // }
+   //
+   // .skillset .level-bar-inner {
+   //    background-color: black !important;
+   //    -webkit-print-color-adjust: exact;
+   // }
 
-    .remove-container.container-block {
-       display: none;
-    }
-
-    footer {
-       display: none;
-    }
-
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
-
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
+   //.fa-inverse,
+   //.fa-inverse:after,
+   //.fa-inverse:before {
+   //  color: #ffffff !important;
+   //}
 
 }
