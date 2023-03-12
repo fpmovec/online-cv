@@ -2,3 +2,7 @@ data/_site/
 data/.sass-cache/
 data/.jekyll-metadata
 data/.jekyll-cache
+
+# Intellij Idea files
+.idea
+*.iml
