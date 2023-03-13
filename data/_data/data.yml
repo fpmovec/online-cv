@@ -104,14 +104,14 @@ experiences:
   title: Berufserfahrung
   info:
     - role: Unterassistentin
-      time: 2020 - 2021
-      company: Diverse Spitäler
-      details: |
-        UZH Praktisches Jahr:
-          - UZH
-          - Waid Spital
-          - Hirslanden
-          - Spital Uster
+      time: 10.2020 - 07.2021
+      company: Diverse Spitäler (USZ, Waid, Hirslanden, Uster), Schweiz
+#      details: |
+#        UZH Praktisches Jahr:
+#          - UZH
+#          - Waid Spital
+#          - Hirslanden
+#          - Spital Uster
     #      - role: Internist
     #        time: 02.2013 - 05.2014
     #        company: Die Poliklinik. Minsk, Belarus
@@ -123,15 +123,9 @@ experiences:
     #          pellentesque eu, pretium quis, sem.
     #            - Bullet point
     #            - Bullet point
-    - role: Ärztin-Gastroenterologin
-      time: 11.2014 - 02.2015
-      company: 3. Klinische Stadtsspital, Minsk, Belarus
-    - role: Ärztin-Gastroenterologin
-      time: 03.2013 - 05.2014
-      company: Das private Medizinzentrum. Minsk, Belarus
-    - role: Leiterin-Gastroenterologin
-      time: 02.2011 - 01.2013
-      company: Die Abteilung für Gastroenterologie des Spitals. Molodetschno, Belarus.
+    - role: Leitende-/Ärztin in Gastroenterologie
+      time: 02.2011 - 02.2015
+      company: Stadtsspitäle, Minsk, Molodetschno, Belarus
     - role: Internist + Dienst
       time: 08.2007 - 08.2010
       company: Die Abteilung für Gastroenterologie des Spitals. Molodetschno, Belarus.
@@ -182,7 +176,7 @@ experiences:
 #        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-  title: Publications
+  title: Publikationen
 #  intro: |
 #    You can list your publications in this section. Lorem ipsum dolor sit
 #    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
@@ -196,12 +190,12 @@ publications:
       authors: Eshmuminov, D., Karpovich, I., Kapp, J. et al.
       conference: Langenbecks Arch Surg 406, 729–734 (2021)
 
-skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-    - name: Python & Django
-      level: 2%
+#skills:
+#  title: Skills &amp; Proficiency
+#
+#  toolset:
+#    - name: Python & Django
+#      level: 2%
 
 
 #footer: >
