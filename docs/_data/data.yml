@@ -168,7 +168,7 @@ skills:
   toolset:
     - name: C#
     - name: ASP.NET
-    - name: RDBMS
+    - name: RDBMS (MSSQL, MySQL)
     - name: Javascript
     - name: TypeScript
     - name: HTML, CSS
