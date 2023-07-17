@@ -7,24 +7,22 @@ sidebar:
   education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Dr. med. Iryna Karpovich
+  name: Maksim Kryvets
   tagline: |
-    Assistentärztin \
-    CH-Arztdiplom \
-    BY-Arztdiplom
-  avatar: irka1.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    BSU Student (3rd year)
+  avatar: maks.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
   #  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: irina.krivec@gmail.com
-  phone: +41 76 451 56 26
-  address: 8152 Opfikon, Schweiz
+  email: 10.maks.10k@gmail.com
+#  phone: +41 76 451 56 26
+  address: Minsk, Belarus
   #    timezone: Europe/Zurich
   #  citizenship: Belarus (Aufenthaltsbewilligung C mit Erwerbstätigkeit)
   #    website: blog.webjeda.com #do not add http://
   #    linkedin: alandoe
   #    xing: alandoe
-  #    github: sharu725
+  github: fpmovec
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
@@ -36,80 +34,62 @@ sidebar:
 
 
   languages:
-    title: Sprachen
+    title: Languages
     info:
-      - idiom: Deutsch
-        level: C1, Dialektverstehen
-
-      - idiom: Englisch
+      - idiom: English
         level: B1
 
-      - idiom: Russisch
-        level: Muttersprache
+      - idiom: German
+        level: A1
 
-      - idiom: Belarussisch
-        level: Muttersprache
+      - idiom: Russian
+        level: Native
 
-      - idiom: Italienisch
+      - idiom: Belarussian
+        level: Native
+
+      - idiom: Italian
         level: A1
 
   interests:
-    title: Interessen
+    title: Hobbies
     info:
-      - item: Sport (Volleyball, Beachvolleyball, Ski-, Velofahren)
+      - item: Sport (Gym)
         link:
 
-      - item: Shopping
+      - item: Languages
         link:
 
-      - item: Reisen
+      - item: Travelling
         link:
 
 career-profile:
-  title: Profil
+  title: Profile
   summary: |
-    Ärztin mit praktischen und theoretischen Kompetenzen in der Diagnostik, Therapieplanung, umfassenden Patientenbetreuung. \
-    Klinische Erfahrung in unterschiedlichen Aspekten der Inneren Medizin bei der Führung von Patienten basierend auf klinisch problemorientiertem wissenschaftlichem Denken und evidenzbasierten ärztlichem Handeln. \
-    Effizienz, Zuverlässigkeit, Sorgfältigkeit gehören zu meiner Arbeitsweise.
+    Passionate about developing high quality software, learning new technologies, patterns and methods.
 
 education:
-  title: Ausbildung
+  title: Education
   info:
-    - degree: Master Humanmedizin
-      university: Universität Zürich, CH
-      time: 2018 - 2022
-    #        details: |
-    #          Describe your study here lorem ipsum dolor sit amet, consectetuer
+    - degree: Bachelor of Computer Science
+      university: BSU, Minsk, Belarus
+      time: 2021 - present
+      details: |
+        Division "Methods of optimal control"
     #          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
     #          sociis natoque penatibus et magnis dis parturient montes, nascetur
     #          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
     #          pretium quis, sem.
     #            - Bullet point
     #            - Bullet point
-    - degree: Bachelor Humanmedizin
-      university: Universität Zürich, CH
-      time: 2017 - 2018
-    - degree: Ärztin-Gastroenterologin
-      university: Medizinische Akademie der postgradualen Bildung, BY
-      time: 2010
-    - degree: Fachärztin für Innere Medizin
-      university: Belarussische Staatliche Medizinische Universität, BY
-      time: 2006 - 2007
-    - degree: Ärztin
-      university: Belarussische Staatliche Medizinische Universität, BY
-      time: 2000 - 2006
 experiences:
-  title: Berufserfahrung
+  title: Experience
   info:
-    - role: Unterassistentin
-      time: 10.2020 - 07.2021
-      company: Diverse Spitäler (USZ, Waid, Hirslanden, Uster), CH
-#      details: |
-#        UZH Praktisches Jahr:
-#          - UZH
-#          - Waid Spital
-#          - Hirslanden
-#          - Spital Uster
+    - role: Trainee
+      time: 06.2022 - 07.2022
+      company: EPAM
+      details: |
+        C# Basics
     #      - role: Internist
     #        time: 02.2013 - 05.2014
     #        company: Die Poliklinik. Minsk, Belarus
@@ -121,12 +101,6 @@ experiences:
     #          pellentesque eu, pretium quis, sem.
     #            - Bullet point
     #            - Bullet point
-    - role: Leitende-/Ärztin in Gastroenterologie
-      time: 02.2011 - 02.2015
-      company: Stadtsspitäle, Minsk, Molodetschno, BY
-    - role: Internist + Dienst
-      time: 08.2007 - 08.2010
-      company: Die Abteilung für Gastroenterologie des Spitals. Molodetschno, BY
 #projects:
 #    title: Projects
 #    intro: >
@@ -173,27 +147,36 @@ experiences:
 #        link: "#"
 #        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-  title: Publikationen
-#  intro: |
-#    You can list your publications in this section. Lorem ipsum dolor sit
-#    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#    bibendum fringilla a eu lectus.
-#  Eshmuminov D, Karpovich I, Kapp J, Töpfer A, Endhardt K, Oberkofler C, Petrowsky H, Lenggenhager D, Tschuor C, Clavien PA. Pancreatic fistulas following distal pancreatectomy are unrelated to the texture quality of the pancreas. Langenbecks Arch Surg. 2021 May;406(3):729-734. doi: 10.1007/s00423-020-02071-y. Epub 2021 Jan 8. PMID: 33420516.
-#  Eshmuminov, D., Karpovich, I., Kapp, J. et al. Pancreatic fistulas following distal pancreatectomy are unrelated to the texture quality of the pancreas. Langenbecks Arch Surg 406, 729–734 (2021)
-  papers:
-
-    - title: Pancreatic fistulas following distal pancreatectomy are unrelated to the texture quality of the pancreas
-      link: "https://link.springer.com/article/10.1007/s00423-020-02071-y"
-      authors: Eshmuminov, D., Karpovich, I., Kapp, J. et al.
-      conference: Langenbecks Arch Surg 406, 729–734 (2021)
-
-#skills:
-#  title: Skills &amp; Proficiency
+#publications:
+#  title: Publikationen
+##  intro: |
+##    You can list your publications in this section. Lorem ipsum dolor sit
+##    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+##    bibendum fringilla a eu lectus.
+##  Eshmuminov D, Karpovich I, Kapp J, Töpfer A, Endhardt K, Oberkofler C, Petrowsky H, Lenggenhager D, Tschuor C, Clavien PA. Pancreatic fistulas following distal pancreatectomy are unrelated to the texture quality of the pancreas. Langenbecks Arch Surg. 2021 May;406(3):729-734. doi: 10.1007/s00423-020-02071-y. Epub 2021 Jan 8. PMID: 33420516.
+##  Eshmuminov, D., Karpovich, I., Kapp, J. et al. Pancreatic fistulas following distal pancreatectomy are unrelated to the texture quality of the pancreas. Langenbecks Arch Surg 406, 729–734 (2021)
+#  papers:
 #
-#  toolset:
-#    - name: Python & Django
-#      level: 2%
+#    - title: Pancreatic fistulas following distal pancreatectomy are unrelated to the texture quality of the pancreas
+#      link: "https://link.springer.com/article/10.1007/s00423-020-02071-y"
+#      authors: Eshmuminov, D., Karpovich, I., Kapp, J. et al.
+#      conference: Langenbecks Arch Surg 406, 729–734 (2021)
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+    - name: C#
+    - name: ASP.NET
+    - name: RDBMS
+    - name: Javascript
+    - name: TypeScript
+    - name: HTML, CSS
+    - name: React.js
+    - name: Git
+
+
+#      level: 50%
 
 
 #footer: >
