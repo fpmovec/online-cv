@@ -265,6 +265,7 @@ p {
     height: 12px;
     background: $smoky-white;
     @include border-radius(2px);
+    display: none;
   }
 
   .theme-progress-bar {
