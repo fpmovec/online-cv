@@ -9,8 +9,8 @@ sidebar:
   # Profile information
   name: Maksim Kryvets
   tagline: |
-    BSU Student (3rd year)
-  avatar: maks.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    BSU FAMCS Student (3rd year)
+  avatar: ava.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
   #  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -72,10 +72,10 @@ education:
   title: Education
   info:
     - degree: Bachelor of Computer Science
-      university: BSU, Minsk, Belarus
+      university: BSU FAMCS, Minsk, Belarus
       time: 2021 - present
       details: |
-        Division "Methods of optimal control"
+        Department of Optimal Management Methods
     #          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
     #          sociis natoque penatibus et magnis dis parturient montes, nascetur
     #          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
@@ -90,6 +90,11 @@ experiences:
       company: EPAM
       details: |
         C# Basics
+    - role: Trainee
+      time: 08.2023-10.2023
+      company: Centaurea Soft
+      details: |
+        FullStack Web Development(React + ASP.NET)
     #      - role: Internist
     #        time: 02.2013 - 05.2014
     #        company: Die Poliklinik. Minsk, Belarus
